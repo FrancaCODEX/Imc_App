@@ -16,10 +16,9 @@ Para executar este projeto localmente, siga os passos abaixo:
    ```bash
    git clone https://github.com/FrancaCODEX/Imc_App.git
    cd Imc_App
-   ```
-
 2. Abra o projeto no Android Studio.
 3. Construa e execute o aplicativo em um dispositivo Android ou em um emulador.
+   ```
 
 ## Uso do Git
 Este projeto utiliza o Git para controle de versão. Um arquivo `.gitignore` está incluído para evitar que arquivos temporários e de configuração da IDE (como a pasta `.idea/`) sejam rastreados. Certifique-se de que você tem o Git instalado e configure seu repositório local com os seguintes comandos:
