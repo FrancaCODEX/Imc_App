@@ -9,11 +9,6 @@ Este é um aplicativo Android desenvolvido para calcular o Índice de Massa Corp
 - **Android Studio**: Ambiente de desenvolvimento integrado (IDE) usado para criar o aplicativo.
 - **Git**: Sistema de controle de versão utilizado para gerenciar o código-fonte do projeto.
 
-## Estrutura do Projeto
-A estrutura do projeto é organizada da seguinte forma:
-
-Imc_App/ │ ├── app/ # Código-fonte do aplicativo │ ├── src/ # Código-fonte do aplicativo │ │ ├── main/ │ │ │ ├── java/ # Código Java/Kotlin │ │ │ ├── res/ # Recursos (layouts, strings, etc.) │ │ └── test/ # Testes do aplicativo │ └── build.gradle # Configurações de build do aplicativo │ ├── .gitignore # Arquivos e pastas a serem ignorados pelo Git ├── README.md # Documentação do projeto └── build.gradle # Configurações de build do projeto
-
 ## Como Executar o Projeto
 Para executar este projeto localmente, siga os passos abaixo:
 
@@ -23,7 +18,6 @@ Para executar este projeto localmente, siga os passos abaixo:
    cd Imc_App
 2. Abra o projeto no Android Studio.
 3. Construa e execute o aplicativo em um dispositivo Android ou em um emulador.
-
 
 ## Uso do Git
 Este projeto utiliza o Git para controle de versão. Um arquivo `.gitignore` está incluído para evitar que arquivos temporários e de configuração da IDE (como a pasta `.idea/`) sejam rastreados. Certifique-se de que você tem o Git instalado e configure seu repositório local com os seguintes comandos:
