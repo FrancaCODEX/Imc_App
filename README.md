@@ -9,25 +9,6 @@ Este é um aplicativo Android desenvolvido para calcular o Índice de Massa Corp
 - **Android Studio**: Ambiente de desenvolvimento integrado (IDE) usado para criar o aplicativo.
 - **Git**: Sistema de controle de versão utilizado para gerenciar o código-fonte do projeto.
 
-## Estrutura do Projeto
-A estrutura do projeto é organizada da seguinte forma:
-
-```
-Imc_App/
-│
-├── app/                     # Código-fonte do aplicativo
-│   ├── src/                 # Código-fonte do aplicativo
-│   │   ├── main/
-│   │   │   ├── java/        # Código Java/Kotlin
-│   │   │   ├── res/         # Recursos (layouts, strings, etc.)
-│   │   └── test/            # Testes do aplicativo
-│   └── build.gradle          # Configurações de build do aplicativo
-│
-├── .gitignore                # Arquivos e pastas a serem ignorados pelo Git
-├── README.md                 # Documentação do projeto
-└── build.gradle              # Configurações de build do projeto
-```
-
 ## Como Executar o Projeto
 Para executar este projeto localmente, siga os passos abaixo:
 
@@ -63,6 +44,17 @@ Contribuições são bem-vindas! Se você gostaria de contribuir para este proje
 4. Faça o push da sua branch: `git push origin minha-melhoria`
 5. Abra um Pull Request para discutir suas alterações.
 
-## Licença
-Este projeto está licenciado sob a [sua licença aqui].
+
 ```
+
+### Como Adicionar ao GitHub
+
+1. **Cole o texto acima no seu arquivo `README.md`**.
+2. **Salve o arquivo**.
+3. **Faça um commit e um push das alterações**:
+
+   ```bash
+   git add README.md
+   git commit -m "Atualiza README sem estrutura do projeto"
+   git push origin main
+   ```
